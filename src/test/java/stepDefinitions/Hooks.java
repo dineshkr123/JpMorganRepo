@@ -18,7 +18,7 @@ TestContextSetup testContextSetup;
 	public Hooks(TestContextSetup testContextSetup)
 	{
 		
-		this.testContextSetup = testContextSetup;
+		this.testContextSetup =  testContextSetup;
 	}
 	@After("@last_scenario")
 	public void AfterScenario() throws IOException
